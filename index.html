@@ -33,9 +33,11 @@
 				        <li><a href="#experiences">Work Experience</a></li>
 				        <li><a href="#education">Education & Courses</a></li>
 				        <li><a href="#skills">Technical Skills</a></li>     
-                        <li><a href="https://se.linkedin.com/in/esarandon"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/estanislao-lexicon"><i class="fa fa-github"></i></a></li>
-                        <li><a href="mailto:esarandon@gmail.com"><i class="fa fa-send"></i></a></li>
+                        <div class="navbar-icons">
+							<li><a href="https://se.linkedin.com/in/esarandon"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://github.com/estanislao-lexicon"><i class="fa fa-github"></i></a></li>
+							<li><a href="mailto:esarandon@gmail.com"><i class="fa fa-send"></i></a></li>
+						</div>
                     </ul>
 				</nav>
 			</header>
@@ -44,21 +46,23 @@
 
 	<!-- Introduction -->
 	<div class="intro section" id="about">
-		<div class="container">			            
-			<div class="units-row units-split wrap">
-				<div class="unit-20">
-					<img src="img/ava.jpg" alt="Avatar">                    
-				</div>				
-                <div class="unit-80">
-                    <h1><center>Hi, I’m Estanislao Sarandón</center></h1>                    
-				</div>     
+		<div class="container">			
+			<div>
+				<img src="img/ava.jpg" alt="Avatar" class="center">
             </div>
+			<div class="unit-100">
+				<h1><br><span id="typed"></span></h1>
+			</div>
             <div class="units-row">           
                 <p><i class="fa fa-map-marker"></i> Genarp, Sweden</p>
 				<p>
-					With a decade of experience leading sustainability projects and a recent transition into Software development, I bring a robust technical background in C, C++, and Python. 
-                    My career has been built on extensive work with backend technologies, different frameworks, and micro-controllers. As part of my tasks, I wrote code for a variety of web applications and developed APIs to receive and process data from different types of sensors. I used Postman, Git, and Docker daily as part of my development tools in a Linux environment.
-                    Working as a backend developer has provided me with a strong foundation in my career, and I am excited about the opportunity to take on new challenges.
+					My name is Estanislao Sarandón and I'm a software developer with a decade of experience leading sustainability projects.
+					I bring a robust technical background in C, C++, and Python. Passionate about microcontrollers, sensors and how electrical things work. 
+					With hands-on experience as a backend developer, working with different frameworks, and developing web-applications. 
+					As part of my tasks, I developed APIs to receive and process data from different types of sensors. 
+					I used Postman, GitHub, and Docker daily as part of my development tools in a Linux environment.
+					I’m currently diving deeper into the world of full-stack development through a C# .NET course. 
+					Now, I am looking for a workplace where I can put all this passion and curiosity into action and take me to the next stage as a developer.
 				</p>
 			</div>
 		</div>
@@ -230,10 +234,10 @@
 	</footer>
 
 	<!-- Javascript -->
-	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script> -->
+    <script src="js/site.js"></script>
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
