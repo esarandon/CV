@@ -30,6 +30,13 @@
     max-width: 662px;
     padding: 0 20px;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
   @media only screen and (max-width: 767px) {
     .intro img {
@@ -88,6 +95,33 @@
   
   .main-nav nav ul li.active a {
     color: #4d4d4d;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .navbar-icons {
+      display: flex; 
+      gap: 10px; 
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+      .navbar ul {
+          display: flex;
+          flex-wrap: wrap; /* Allows wrapping of items on smaller screens */
+      }
+  
+      .navbar-icons {
+          margin-left: auto; /* Pushes the icons to the right */
+          display: flex; /* Keeps the icons in a row */
+      }
+  
+      .navbar li {
+          flex-basis: 100%; /* Ensures each item takes full width on mobile, except icons */
+      }
   }
   
   .section.second {
