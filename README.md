@@ -1,4 +1,4 @@
-# Estanislao Sarandón - Resume
+# estani sarandón - Resume
 This is a personal resume website designed to showcase my professional background, skills, and interests as a software developer with a passion for sustainability. The site provides a clean and responsive layout, offering an engaging overview of my journey from sustainability specialist to backend developer, as well as my technical skills, experience, and education.
 
 ### Features
