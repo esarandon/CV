@@ -12,6 +12,10 @@ h6 {
   color: #333333;
 }
 
+.custom-font{
+  font-family: "Playfair Display", serif;
+}
+
 a,
 p,
 li {
