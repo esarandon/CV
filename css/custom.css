@@ -170,6 +170,7 @@ a:hover {
   font-size: 270px;
   z-index: -1;
   color: #f4f4f4;
+  content: 'Estani Sarandón';
 }
 
 .intro h1 span {
